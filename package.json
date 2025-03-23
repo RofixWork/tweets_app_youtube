@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i",
+    "start": "node src/app",
+    "dev": "nodemon src/app",
+    "watch": "node --watch src/app"
+  },
+  "keywords": [],
+  "author": "rofix",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^8.12.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
